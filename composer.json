@@ -1,0 +1,27 @@
+{
+    "name": "avatar/parser.loc",
+    "authors": [
+        {
+            "name": "Vitaliy Larin",
+            "email": "vitaly_news@mail.ru"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.3",
+        "symfony/panther": "^1.1",
+        "doctrine/dbal": "^3.1",
+        "monolog/monolog": "^2.3",
+        "vlucas/phpdotenv": "^5.3",
+        "symfony/mailer": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        },
+        "classmap": ["src"]
+    },
+    "require-dev": {
+        "dbrekelmans/bdi": "^0.3.0",
+        "symfony/maker-bundle": "^1.33"
+    }
+}
